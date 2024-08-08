@@ -2,13 +2,14 @@
 
 ## Setup
 The packages and versions used are mentioned in requirements.txt
-
+```
 conda create -n tq python=3.9 -y
 conda activate tq
 
 cd transfer_q
 mkdir run_outs
 pip -r requirements.txt
+```
 
 # For direct transfer tasks on HH-RLHF dataset run the following command:
 
