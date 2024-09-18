@@ -1,5 +1,7 @@
 # Transfer Q*: Principled Decoding for LLM Alignment
 
+This codebase provides a Pytorch implementation for the paper: Transfer Q Star: Principled Decoding for LLM Alignment. 
+
 ## Setup
 The packages and versions used are mentioned in requirements.txt
 ```
@@ -26,4 +28,22 @@ python collect_model_outs.py --run_percent 100. --config="example.config" --out_
 
 ```
 python measure_reward.py --out_file="run_outs/example_out_0.jsonl"
+```
+
+## References
+
+The codebase has been adapted from [ARGS](https://github.com/deeplearning-wisc/args).
+
+## For bibtex citation 
+
+```
+@misc{chakraborty2024transferqstarprincipled,
+      title={Transfer Q Star: Principled Decoding for LLM Alignment}, 
+      author={Souradip Chakraborty and Soumya Suvra Ghosal and Ming Yin and Dinesh Manocha and Mengdi Wang and Amrit Singh Bedi and Furong Huang},
+      year={2024},
+      eprint={2405.20495},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2405.20495}, 
+}
 ```
