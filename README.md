@@ -1,6 +1,6 @@
 # Transfer Q*: Principled Decoding for LLM Alignment
 
-This codebase provides a Pytorch implementation for the paper: Transfer Q Star: Principled Decoding for LLM Alignment. 
+This codebase provides a Pytorch implementation for the paper: Transfer Q Star: Principled Tuning-free Decoding for LLM Alignment
 
 ## Setup
 The packages and versions used are mentioned in requirements.txt
